@@ -6,22 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Çiğköfte Love - About The Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Çiğköfte Love</h1>
+        <button class="menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Me</a></li>
-		<li><a href="aboutweb.html">About The Website</a></li>
+                <li><a href="aboutweb.html">About The Website</a></li>
             </ul>
         </nav>
         <div class="language-switcher">
             <button onclick="changeLanguage('en')">
-                <img src="images/lang/en.svg" alt="English" class="lang-icon"></button>
+                <img src="images/lang/en.svg" alt="English" class="lang-icon">
+            </button>
             <button onclick="changeLanguage('tr')">
-                <img src="images/lang/tr.svg" alt="Türkçe" class="lang-icon"></button>
+                <img src="images/lang/tr.svg" alt="Türkçe" class="lang-icon">
+            </button>
         </div>
     </header>
 

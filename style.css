@@ -149,16 +149,111 @@ main {
 }
 
 .lang-icon {
-    width: 48px; /* Adjust size as needed */
+    width: 48px; 
     height: auto;
 }
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
 
-@media (max-width: 718px) {
-    .sidebar {
-        display: none;
+.menu-toggle span {
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+
+
+@media (max-width: 768px) {
+        .menu-toggle {
+            display: flex; 
+        }
+    
+        nav {
+            display: none; 
+            position: absolute;
+            top: 60px;
+            left: 0;
+            width: 100%;
+            background: #8B0000;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        nav ul li {
+            margin: 1rem 0;
+        }
+    
+        nav.active {
+            display: block;
+        }
+        .sidebar {
+            display: none;
+        }
+    
+        main {
+        }
+
+        .review-block {
+            width: 100%;
+            padding-top: 12rem;
+            margin-right: 0;
+            margin-left: -10; 
+            padding: 1rem; 
+            padding-top: 80px; 
+        }
+    
+        .restaurant-review {
+            width: 100%; 
+            margin-right: 0; 
+            padding: 1rem; 
+            box-sizing: border-box; 
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    
+        header {
+            height: auto;
+            padding: 0.5rem;
+        }
+    
+        header h1 {
+            font-size: 1.5rem;
+        }
+    
+        .language-switcher {
+            position: absolute;
+            flex-direction: row;
+            justify-content: right;
+            top: 0.5rem;
+            right: 1.5rem;
+            gap: 0.25rem;
+        }
+    
+        .map-link {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+        }
+    
+        .bluesky-widget {
+            margin-top: 1rem;
+            text-align: center;
+        }
+    
+        .placeholder-bluesky {
+            max-width: 100%;
+        }
     }
     
-    main {
-        margin-left: 0;
-    }
-}
