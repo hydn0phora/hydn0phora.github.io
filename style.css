@@ -55,10 +55,9 @@ main {
 }
 
 .review-block {
-    max-width: 800px;
+    max-width: 80rem;
     margin: 0 auto;
-    margin-left 19rem;
-    padding: 2rem;
+    padding: 10rem;
 }
 
 .restaurant-review {
