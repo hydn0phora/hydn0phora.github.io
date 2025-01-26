@@ -78,6 +78,14 @@ main {
     justify-content: center;
     margin: 1rem 0;
 }
+.map-embed {
+    background: #ddd;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
 
 .rating {
     color: #ffe600;
@@ -89,7 +97,7 @@ main {
     display: inline-block;
     padding: 0.5rem 1rem;
     background: #ff9900;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     border-radius: 4px;
 }
