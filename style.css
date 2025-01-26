@@ -55,8 +55,9 @@ main {
 }
 
 .review-block {
-    max-width: 80rem;
-    margin: 0 auto;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: 0rem;
     padding: 10rem;
 }
 
