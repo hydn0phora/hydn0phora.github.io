@@ -15,6 +15,7 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    height: 6rem;
 }
 
 nav ul {
@@ -41,14 +42,22 @@ nav a:hover {
     width: 350px;
     background-color: #fff;
     padding: 1rem;
-    margin-top: 3rem;
+    margin-top: 8rem;
     height: calc(100vh - 80px);
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto;
 }
 
 main {
-    margin-left: 270px;
-    margin-top: 80px;
+    margin-left: 19rem;
+    padding: 2rem;
+    padding-top: 2rem;
+}
+
+.review-block {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-left 19rem;
     padding: 2rem;
 }
 
