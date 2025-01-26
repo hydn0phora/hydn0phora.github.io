@@ -37,11 +37,11 @@ nav a:hover {
 
 .sidebar {
     position: fixed;
-    left: 0;
-    width: 250px;
+    left: 10px;
+    width: 350px;
     background-color: #fff;
     padding: 1rem;
-    margin-top: 10rem;
+    margin-top: 3rem;
     height: calc(100vh - 80px);
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
@@ -56,6 +56,7 @@ main {
     background: white;
     padding: 2rem;
     margin-bottom: 2rem;
+    margin-left: 6rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -115,6 +116,7 @@ main {
     right: 3rem;
     display: flex;
     gap: 0.5rem;
+    flex-direction: column;
 }
 
 .language-switcher button {
@@ -130,10 +132,8 @@ main {
 }
 
 .lang-icon {
-    width: 24px; /* Adjust size as needed */
+    width: 48px; /* Adjust size as needed */
     height: auto;
-    border: 1px solid #ccc; /* Optional: Add a border */
-    border-radius: 3px; /* Optional: Round the corners */
 }
 
 @media (max-width: 718px) {
