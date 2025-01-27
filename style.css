@@ -17,13 +17,16 @@ header {
     z-index: 1000;
     height: 6rem;
 }
+header h1:hover {
+    cursor: default;
+}
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    gap: 2rem;
+    gap: 0rem;
 }
 
 nav a {
@@ -31,6 +34,22 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+
+.nav-button {
+    color: #333;
+    background-color: #ffdb99;
+    border-color: #ffdb99;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.nav-button:hover {
+    color: #333;
+    background-color: #2aa6af;
+    border-color: #2aa6af;
+    cursor: pointer;
+}
+
 
 nav a:hover {
     color: #2aa6af;
@@ -139,6 +158,7 @@ main {
     text-align: center;
 }
 .language-switcher {
+    display: none;
     position: absolute;
     top: 1rem;
     right: 3rem;
@@ -148,6 +168,7 @@ main {
 }
 
 .language-switcher button {
+    display: none;
     background: none;
     border: none;
     padding: 0;
@@ -197,15 +218,15 @@ main {
         }
     
         nav ul {
+            display: flex;
             flex-direction: column;
-            align-items: center;
             margin-left: 0;
             width: 100%;
             height: 100%;
         }
     
         nav ul li {
-            margin: 1rem 0;
+            margin: 0;
         }
     
         nav.active {
@@ -213,8 +234,14 @@ main {
         }
 
         .nav-button {
+            flex-grow: 1;
+            flex-shrink: 1;
             width: 100%;
-            height: 100%;
+            height: 5rem;
+            background-color: #2aa6af;
+            border-color: #2aa6af;
+            color: #333;
+            border-radius: 0;
         }
         
         .sidebar {
@@ -266,6 +293,7 @@ main {
         }
     
         .language-switcher {
+            display: none;
             position: absolute;
             flex-direction: row;
             justify-content: right;
