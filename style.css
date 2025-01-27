@@ -200,22 +200,16 @@ main {
         .sidebar {
             display: none;
         }
-    
-        main {
-        }
 
         .review-block {
             width: 100%;
-            padding-top: 12rem;
-            margin-right: 0;
-            margin-left: -10; 
-            padding: 1rem; 
-            padding-top: 80px; 
+            padding: 0.5rem; 
+            padding-top: 7rem; 
         }
     
         .restaurant-review {
-            width: 100%; 
-            margin-right: 0; 
+            width: 90%; 
+            margin-left: 0; 
             padding: 1rem; 
             box-sizing: border-box; 
             background: white;
