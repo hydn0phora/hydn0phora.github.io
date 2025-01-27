@@ -55,10 +55,10 @@ main {
 }
 
 .review-block {
-    max-width: 90rem;
+    max-width: 97.5rem;
     margin-left: auto;
     margin-right: 0rem;
-    padding: 10rem;
+    padding-top: 10rem;
 }
 
 .restaurant-review {
@@ -145,7 +145,7 @@ main {
 }
 
 .language-switcher button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .lang-icon {
@@ -167,7 +167,7 @@ main {
 .menu-toggle span {
     width: 100%;
     height: 3px;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 
@@ -208,8 +208,9 @@ main {
         }
     
         .restaurant-review {
-            width: 90%; 
+            width: 100%; 
             margin-left: 0; 
+            margin-right: 0;
             padding: 1rem; 
             box-sizing: border-box; 
             background: white;
@@ -242,12 +243,11 @@ main {
         }
     
         .bluesky-widget {
-            margin-top: 1rem;
-            text-align: center;
+            display: none;
         }
     
         .placeholder-bluesky {
-            max-width: 100%;
+            display: none;
         }
     }
     
